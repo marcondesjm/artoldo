@@ -1,0 +1,24 @@
+@import '../abstract/variaveis';
+
+.client-logo-container {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  .logos-list {
+    img {
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  .client-logo-container {
+    height: 20vh;
+    .logos-list {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

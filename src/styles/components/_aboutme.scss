@@ -1,0 +1,147 @@
+@import '../abstract/variaveis';
+
+.about-me {
+  display: flex;
+  height: 100vh;
+  min-height: 1000px;
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+  padding: 100px 0 0 0;
+  div {
+    width: 50%;
+  }
+  .img-aboutme {
+    animation: slide-left-in 2s forwards;
+    transition: transform 0.3s ease;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .quadradinho {
+      height: 6%;
+      width: 6%;
+      position: absolute;
+      border-radius: 20%;
+      // transform: rotate(45deg);
+      opacity: 0.8;
+    }
+    .q-vermelho {
+      top: 10%;
+      height: 7%;
+      width: 7%;
+      background-color: $cor-terc-red;
+      animation: spin-q-in 5s forwards;
+      transition: transform 0.3s ease;
+    }
+    .q-azul {
+      top: 20%;
+      left: 75%;
+      background-color: $cor-terc-blue;
+      animation: spin-q-in 10s forwards;
+      transition: transform 0.3s ease;
+    }
+    .q-amarelo {
+      top: 70%;
+      left: -28%;
+      height: 7%;
+      width: 7%;
+      background-color: $cor-secundaria;
+      animation: spin-q-in 8s forwards;
+      transition: transform 0.3s ease;
+    }
+  }
+  .txt-aboutme {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-evenly;
+    animation: slide-right-in 2s forwards;
+    transition: transform 0.3s ease;
+    padding: 0 20px;
+    h2 {
+      font-family: $font;
+      font-weight: $sb;
+      color: $cor-primaria;
+    }
+    p {
+      font-family: $font;
+      font-weight: $rg;
+      color: $cor-primaria;
+    }
+    .btn-saber-mais {
+      width: 150px;
+      background-color: $cor-secundaria;
+      border: $cor-secundaria solid 1px;
+      color: $cor-primaria;
+      font-family: $font;
+      font-weight: $md;
+      &:hover {
+        background-color: $cor-branca;
+        font-weight: $rg !important;
+      }
+      &:hover .seta {
+        animation: $anime-setinha;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  .about-me {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    height: 100%;
+    div {
+      width: 100%;
+    }
+    .img-aboutme {
+      .q-amarelo {
+        left: -15%;
+      }
+    }
+    .txt-aboutme {
+      padding: 20px 0;
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@keyframes slide-left-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right-in {
+  from {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin-q-in {
+  from {
+    opacity: 0;
+    transform: translateX(200%) rotate(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(45deg);
+  }
+}

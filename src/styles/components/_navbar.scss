@@ -1,0 +1,61 @@
+@import '../abstract/variaveis';
+
+.navbar {
+  width: 80%;
+  height: 100px;
+  margin: 0 10%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 90%) !important;
+  transition: all 0.3s ease;
+  // animation: slide-down-in 2s forwards;
+  z-index: 1000;
+  .btn-contacte-nos {
+    background-color: $cor-terc-green !important;
+    border: $cor-terc-green solid 1px;
+    color: $cor-branca;
+    font-family: $font;
+    font-weight: $md;
+    &:hover {
+      background-color: $cor-branca !important;
+      color: $cor-terc-green;
+      font-family: $font;
+      font-weight: $rg;
+    }
+  }
+  .nav-itens {
+    gap: 3rem;
+    .item {
+      color: $cor-primaria;
+      &:hover {
+        color: $cor-terc-red;
+      }
+      .dropdown-toggle {
+        color: $cor-primaria;
+        &:hover {
+          color: $cor-terc-red;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .navbar {
+    width: 100%;
+    height: 100px;
+    margin: 0 !important;
+    border-radius: 0;
+  }
+}
+
+@keyframes slide-down-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

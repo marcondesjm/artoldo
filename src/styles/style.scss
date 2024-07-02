@@ -1,0 +1,34 @@
+@import './abstract/base';
+@import './abstract/variaveis';
+@import "~bootstrap/scss/bootstrap";
+//  Pages
+@import './pages/pages';
+
+// Components
+@import './components/topbar';
+@import './components/header';
+@import './components/navbar';
+@import './components/faleconosco';
+@import './components/depoiments';
+@import './components/clientes';
+@import './components/footer';
+@import './components/mission';
+@import './components/whatsapp';
+
+  // Home Components
+  @import './components/cardheader';
+  @import './components/aboutme';
+  @import './components/servicesHome';
+
+  // About Components
+  @import './components/ourhistory';
+  @import './components/conquistas';
+
+  // Services Components
+  @import './components/titleservices';
+  @import './components/cardservices';
+
+  // Contactos Components
+  @import './components/contactos';
+  @import './components/infoscontactos';
+  @import './components/formcontactos';
