@@ -38,6 +38,7 @@ function Footer() {
           <span><MdEmail className='ico-footer'/>casadostoldosvendas10@hotmail.com</span>
           <span><MdPhoneIphone className='ico-footer'/>48 9 9617-8175<i>*Suporte WhatsApp 24h</i></span>
           <span><MdLocationOn className='ico-footer'/>São José - SC / Brasil</span>
+          <span> <MdLocationOn className='ico-footer'/>R.Felipe Domingues Petry.379 <a target="blank" href='https://maps.app.goo.gl/p1AmmnrMPgJrEdAy8'>Veja o Mapa</a></span>
         </div>
       </div>
       <div className='rodape'>
