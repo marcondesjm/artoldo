@@ -13,9 +13,9 @@ function CardHeader() {
         <h1>
         O Melhor
         <br/>
-        para a 
+        para sua 
         <br/>
-        vc
+        empresa
         </h1>
       </div>
       <div className='card-icon lampada'><img alt='lampada'src={ lampada }/></div>
