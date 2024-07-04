@@ -36,7 +36,7 @@ function AboutMe() {
             </div>
             <div className='txt-aboutme'>
               <h2>Está procurando por toldo?</h2>
-              <p>Art Toldos - Atuando no segmento de toldos, estruturas metálicas e serralheria em geral a empresa vem conquistando seus clientes pela ótima qualidade dos produtos com o melhor custo/beneficio..
+              <p>Art Toldos - Atuando no segmento de toldos, estruturas metálicas e serralheria em geral a empresa vem conquistando seus clientes pela ótima qualidade dos produtos com o melhor custo/beneficio...
               <br/>
               <br/>
               Com a sua visão de oferecer soluções completas em intalação, fabricação e manutenção em geral de toldos. Com sua equipe altamente capacitada e comprometida, nossa empresa tem se tornado cada vez mais reconhecida no mercado pelo sua dedicação e excelente trabalho.
