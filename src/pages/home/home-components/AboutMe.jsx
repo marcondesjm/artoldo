@@ -39,7 +39,7 @@ function AboutMe() {
               <p>Art Toldos - Atuando no segmento de toldos, estruturas metálicas e serralheria em geral a empresa vem conquistando seus clientes pela ótima qualidade dos produtos com o melhor custo/beneficio...
               <br/>
               <br/>
-              Com a sua visão de oferecer soluções completas em intalação, fabricação e manutenção em geral de toldos. Com sua equipe altamente capacitada e comprometida, nossa empresa tem se tornado cada vez mais reconhecida no mercado pelo sua dedicação e excelente trabalho.
+              Com a sua visão de oferecer soluções completas em intalação, fabricação e manutenção em geral de toldos. Conta com uma equipe altamente capacitada e comprometida. Nossa empresa tem se tornado cada vez mais reconhecida no mercado pela sua dedicação e excelente trabalho.
               </p>
               <Button
                 as={ Link } to={'/sobre'}
